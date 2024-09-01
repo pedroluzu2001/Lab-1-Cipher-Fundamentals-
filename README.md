@@ -7,3 +7,10 @@ A prime number can be defined as a natural number greater than 1 whose only fact
 A prime number is a positive integer greater than 1 that cannot be written as a product of two distinct integers which are greater than 1.
 
 ![image](https://github.com/user-attachments/assets/a3bb2248-0ce0-4997-a7d2-ac120cd04e1f)
+
+
+A.1: Test for the following prime numbers:
+
+-*91* 
+![image](https://github.com/user-attachments/assets/3b8beb40-f1db-4366-9eb8-e981a7aac6f7)
+
