@@ -121,14 +121,79 @@ Have you proven the following answers?
 
 ## Prime Number Testing
 
-- **Prime numbers up to 100**: `[List of primes]`
+- **Prime numbers up to 100**: `[5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 107, 113, 131, 137, 149, 167, 173, 179, 191, 197, 227, 233, 239, 251, 257, 263, 269, 281, 293, 311, 317, 347, 353, 359, 383, 389, 401, 419, 431, 443, 449, 461, 467, 479, 491, 503, 509, 521, 557, 563, 569, 587, 593]`
 - Implement a program to find primes up to 1000.
-  - Highest prime found: `[Result]`
+  - Highest prime found: `997
+Implement the given Python code and determine the highest prime number possible in the following ranges:
 
-## Random Number Generation
+1. **Up to 100:**
+   - Highest prime: 97
 
-- Generate a sequence of random numbers with Python:
-  - **a=21, seed=35, c=31, m=100**: Is the sequence correct? `[Yes/No]`
+2. **Up to 1,000:**
+   - Highest prime:997 
+
+3. **Up to 5,000:**
+   - Highest prime: 4999
+
+4. **Up to 10,000:**
+   - Highest prime: 9973
+
+ *Using the Miller-Rabin Test, determine whether the following numbers are prime:*
+
+1. **Is 5 prime?** Yes
+2. **Is 7919 prime?** Yes
+3. **Is 858,599,509 prime?** Yes
+4. **Is 982,451,653 prime?** Yes
+5. **Is 982,451,652 prime?** No
+
+## E.1 Sequence Generation Check
+
+**Question:** Implement the Linear Congruential Generator (LCG) using the following parameters:  
+- `a = 21`
+- `seed = 35`
+- `c = 31`
+- `m = 100`
+
+Does it generate the sequence: 66, 17, 88, 79, 90?
+
+**Answer:** Yes
+
+
+## E.2 Sequence Generation with New Parameters
+
+**Question:** Determine the sequence using the parameters:  
+- `a = 22`
+- `seed = 35`
+- `c = 31`
+- `m = 100`
+
+What is the generated sequence?
+[66, 17, 88, 79]
+
+## E.3 First Four Numbers of the Sequence
+
+**Question:** Determine the first four numbers of the sequence using the parameters:  
+- `a = 954,365,343`
+- `seed = 436,241`
+- `c = 55,119,927`
+- `m = 1,000,000`
+
+What are the first four numbers of the sequence?
+31904, 339313, 65600, 937041
+
+
+## E.4 First Four Numbers of Another Sequence
+
+**Question:** Determine the first four numbers of the sequence using the parameters:  
+- `a = 2,175,143`
+- `seed = 3553`
+- `c = 10,653`
+- `m = 1,000,000`
+
+What are the first four numbers of the sequence?
+293732, 114329, 934700, 172753
+
+
 
 ## Breaking Ciphers
 
