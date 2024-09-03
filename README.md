@@ -1,7 +1,7 @@
 # Lab-1 Cipher Fundamental
 This lab introduces fundamental principles of cryptography, covering key concepts such as Base-64, hexadecimal, basic operators (AND, OR, X-OR), the modulus operator, bit rotation (Rotate Right and Rotate Left), and prime numbers. It also includes puzzle-solving exercises to develop cipher-cracking skills. 
 
-**A Introduction**
+**A._Introduction**
 
 Prime Numbers Definition
 A prime number can be defined as a natural number greater than 1 whose only factors are 1 and the number itself. 
@@ -47,37 +47,40 @@ A prime number is a positive integer greater than 1 that cannot be written as a 
 
 - **Value**: 93
   - **Decimal**: 93
-  - **Binary**: `01011101`
-  - **Hexadecimal**: `0x5D`
-  - **Octal**: `0135`
+  - **Binary**: ` 0b1011101`
+  - **Hexadecimal**: `0x5d`
+  - **Octal**: `0o135`
   - **Character**: `]`
 
 ## JavaScript Node.js Operations
 
 - Perform the same conversions in a file named `a_08.js` and execute the script using `node a_08.js`.
-  - **Binary**: `01011101`
-  - **Hexadecimal**: `0x5D`
-  - **Octal**: `0135`
+  - **Binary**: `1011101`
+  - **Hexadecimal**: `5d`
+  - **Octal**: `135`
   - **Character**: `]`
 
 ## Base-64 Conversion in Python
 
-- **"crypto"**: `[Add the result here]`
+- **"crypto"**: `Y3J5cHRv`
+- **"cripto1"**: `Y3J5cHRvMQ==`
 
 ## Bitwise Shifts in Python
 
 - **Decimal Value**: 41
-  - Left Shift (1 bit): `[Result]`
-  - Left Shift (2 bits): `[Result]`
-  - Right Shift (1 bit): `[Result]`
-  - Right Shift (2 bits): `[Result]`
+  - Left Shift (1 bit): `82`
+  - Left Shift (2 bits): `164`
+  - Right Shift (1 bit): `20`
+  - Right Shift (2 bits): `10`
   - **Why not use shift operators in cryptography?**
     - Shifts can introduce predictability, making cryptographic operations vulnerable to attacks.
 
 ## Factorization in Python
 
-- Factorize 432: `[Result]`
-- Factorize two large numbers: `[Result]`
+- Factorize 432: `2, 2, 2, 2, 3, 3, 3`
+- Factorize two large numbers: `10000000 = 2, 2, 2, 2, 2, 2, 2, 5, 5, 5, 5, 5, 5, 5`
+- Factorize two large numbers: `2192029103923 = 61, 311, 4049, 28537`
+  
 
 ## Compression and Encryption in Node.js
 
