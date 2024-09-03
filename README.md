@@ -85,20 +85,26 @@ A prime number is a positive integer greater than 1 that cannot be written as a 
 ## Compression and Encryption in Node.js
 
 - Create a file `a_13.js` and test the given conversions.
+- eJzzyc9Lyc8DAAgpAms= : London
+- eJxzSi3KycwDAAfXAl0= : Berlin
+- eJzzSy1XiMwvygYADKUC8A== : New York
   - **Observation**: Compressed repeated strings tend to be smaller compared to random strings due to redundancy.
 
 ## GCD Calculation
 
 - Python program to determine the GCD:
-  - 4105 and 10: `[Result]`
-  - 4539 and 6: `[Result]`
+  - 4105 and 10: `5`
+  - 4539 and 6: `3`
+ 
+  - 5435 and 634 are coprime.
+  - 5432 and 634 are not coprime.
 
 ## Modular Exponentiation
 
-- Result of \( 8^{13} \mod 271 \): `[Result]`
-- Result of \( 12^{23} \mod 973 \): `[Result]`
+- Result of \( 8^{13} \mod 271 \): `119`
+- Result of \( 12^{23} \mod 973 \): `514`
 - Implement a program in Python to calculate \( M^e \mod p \) and verify the results.
-  - \( 8^5 \mod 269 = 219 \): `[True/False]`
+  - \( 8^5 \mod 269 = 219 \): `True`
 
 ## Prime Number Testing
 
