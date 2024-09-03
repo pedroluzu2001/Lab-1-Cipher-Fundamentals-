@@ -106,6 +106,19 @@ A prime number is a positive integer greater than 1 that cannot be written as a 
 - Implement a program in Python to calculate \( M^e \mod p \) and verify the results.
   - \( 8^5 \mod 269 = 219 \): `True`
 
+ ## Cipher Calculation Proof
+
+Have you proven the following answers?
+
+1. **(a) message = 5, e = 5, p = 53. Expected Answer: 51**
+   - Proven: Yes
+
+2. **(b) message = 4, e = 11, p = 79. Expected Answer: 36**
+   - Proven: Yes
+
+3. **(c) message = 101, e = 7, p = 293. Expected Answer: 176**
+   - Proven: Yes
+
 ## Prime Number Testing
 
 - **Prime numbers up to 100**: `[List of primes]`
