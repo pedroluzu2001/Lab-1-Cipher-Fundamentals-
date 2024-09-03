@@ -10,156 +10,110 @@ A prime number is a positive integer greater than 1 that cannot be written as a 
 ![image](https://github.com/user-attachments/assets/a3bb2248-0ce0-4997-a7d2-ac120cd04e1f)
 
 
-A.1: Test for the following prime numbers:
+## Prime Numbers
 
-**¿Es primo?**  
-   - 91: [ ] Sí [X] No  
-   - 421: [X] Sí [ ] No  
-   - 1449: [ ] Sí [X] No  
+- **91**: Not Prime
+- **421**: Prime
+- **1449**: Not Prime
 
-2. **GCD (Máximo Común Divisor)**  
-   - 88, 46:  
-   - 105, 35:  
+## GCD (Greatest Common Divisor)
 
-3. **Conversión a Base-64 y Hex**  
-   - "Hello":  
-   - "hello":  
-   - "HELLO":  
+- GCD of 88 and 46: **2**
+- GCD of 105 and 35: **35**
 
-4. **Decodificación de formatos ASCII**  
-   - bGxveWRz:  
-   - 6E6170696572:  
-   - 01000001 01101110 01101011 01101100 01100101 00110001 00110010 00110011:  
+## Base-64 and Hexadecimal Conversions
 
-5. **Python: Operador módulo**  
-   - ¿Cuál es el resultado de `53431 % 453`?  
+- **"Hello"**: Base-64: `SGVsbG8=`, Hex: `48656C6C6F`
+- **"hello"**: Base-64: `aGVsbG8=`, Hex: `68656C6C6F`
+- **"HELLO"**: Base-64: `SEVMTE8=`, Hex: `48454C4C4F`
 
-6. **Operadores en Python**  
-   - `print(0x43 | 0x21)`  
-   - `print(0x43 & 0x21)`  
-   - `print(0x43 ^ 0x21)`  
-   - Usa papel y lápiz para demostrar que los resultados son correctos.
+## ASCII Decoding
 
-7. **Equivalentes en Python**  
-   - Valor: 93  
-   - Decimal:  
-   - Binario:  
-   - Hexadecimal:  
-   - Octal:  
-   - Caracter:  
+- **bGxveWRz**: `lloyds`
+- **6E6170696572**: `napier`
+- **01000001 01101110 01101011 01101100 01100101 00110001 00110010 00110011**: `Ankle123`
 
-8. **JavaScript: Operaciones con node.js**  
-   - Realiza las mismas conversiones en un archivo `a_08.js` y ejecuta el script con `node a_08.js`.  
-   - Binario:  
-   - Hexadecimal:  
-   - Octal:  
-   - Caracter:  
+## Python Modulo Operator
 
-9. **Python: Conversión a Base-64**  
-   - "crypto":  
+- Result of `53431 % 453`: **430**
 
-10. **Comparación de conversiones Base-64**  
-    - Observa la diferencia al usar la cadena "crypto1".  
+## Bitwise Operations in Python
 
-11. **Desplazamientos de bits en Python**  
-    - Valor decimal: 41  
-    - Desplazamiento a la izquierda (1 bit):  
-    - Desplazamiento a la izquierda (2 bits):  
-    - Desplazamiento a la derecha (1 bit):  
-    - Desplazamiento a la derecha (2 bits):  
-    - ¿Por qué no se usaría un operador de desplazamiento solo en criptografía?
+- `print(0x43 | 0x21)`: **99**
+- `print(0x43 & 0x21)`: **1**
+- `print(0x43 ^ 0x21)`: **98**
 
-12. **Factorización en Python**  
-    - Factoriza 432:  
-    - Piensa en dos números grandes y determina sus factores.
+## Python Value Equivalents
 
-13. **Compresión y cifrado en node.js**  
-    - Crea un archivo `a_13.js` y prueba las conversiones dadas.  
-    - ¿Qué observas al comprimir una cadena repetida versus una aleatoria?
+- **Value**: 93
+  - **Decimal**: 93
+  - **Binary**: `01011101`
+  - **Hexadecimal**: `0x5D`
+  - **Octal**: `0135`
+  - **Character**: `]`
 
-### B. Máximo Común Divisor (GCD)
+## JavaScript Node.js Operations
 
-1. **Programa en Python para determinar el GCD**  
-   - 4105 y 10:  
-   - 4539 y 6:  
+- Perform the same conversions in a file named `a_08.js` and execute the script using `node a_08.js`.
+  - **Binary**: `01011101`
+  - **Hexadecimal**: `0x5D`
+  - **Octal**: `0135`
+  - **Character**: `]`
 
-2. **Determinación de números coprimos**  
-   - 5435 y 634: [ ] Sí [ ] No  
-   - 5432 y 634: [ ] Sí [ ] No  
+## Base-64 Conversion in Python
 
-### C. Módulo y Exponenciación
+- **"crypto"**: `[Add the result here]`
 
-1. **Resultado de las siguientes operaciones**  
-   - \( 8^{13} \mod 271 \):  
-   - \( 12^{23} \mod 973 \):  
+## Bitwise Shifts in Python
 
-2. **Implementación en Python**  
-   - Programa para calcular \( M^e \mod p \).  
-   - Verifica si \( 8^5 \mod 269 = 219 \).
+- **Decimal Value**: 41
+  - Left Shift (1 bit): `[Result]`
+  - Left Shift (2 bits): `[Result]`
+  - Right Shift (1 bit): `[Result]`
+  - Right Shift (2 bits): `[Result]`
+  - **Why not use shift operators in cryptography?**
+    - Shifts can introduce predictability, making cryptographic operations vulnerable to attacks.
 
-3. **Prueba de operaciones**  
-   - Mensaje = 5, e = 5, p = 53. Respuesta: 51  
-   - Mensaje = 4, e = 11, p = 79. Respuesta: 36  
-   - Mensaje = 101, e = 7, p = 293. Respuesta: 176  
+## Factorization in Python
 
-### D. Prueba de números primos
+- Factorize 432: `[Result]`
+- Factorize two large numbers: `[Result]`
 
-1. **Determinación de números primos hasta 100**  
-   - Primos:
+## Compression and Encryption in Node.js
 
-2. **Implementación de un programa para encontrar primos hasta 1000**  
-   - El número primo más alto encontrado:
+- Create a file `a_13.js` and test the given conversions.
+  - **Observation**: Compressed repeated strings tend to be smaller compared to random strings due to redundancy.
 
-3. **Implementación del código de tamiz**  
-   - Hasta 100:  
-   - Hasta 1,000:  
-   - Hasta 5,000:  
-   - Hasta 10,000:  
+## GCD Calculation
 
-4. **Prueba de primalidad Miller-Rabin**  
-   - ¿Es 5 primo? [ ] Sí [ ] No  
-   - ¿Es 7919 primo? [ ] Sí [ ] No  
-   - ¿Es 858,599,509 primo? [ ] Sí [ ] No  
-   - ¿Es 982,451,653 primo? [ ] Sí [ ] No  
-   - ¿Es 982,451,652 primo? [ ] Sí [ ] No  
+- Python program to determine the GCD:
+  - 4105 and 10: `[Result]`
+  - 4539 and 6: `[Result]`
 
-### E. Números aleatorios
+## Modular Exponentiation
 
-1. **Secuencia de números aleatorios con Python**  
-   - a=21, seed=35, c=31, m=100  
-   - ¿La secuencia es correcta? [ ] Sí [ ] No
+- Result of \( 8^{13} \mod 271 \): `[Result]`
+- Result of \( 12^{23} \mod 973 \): `[Result]`
+- Implement a program in Python to calculate \( M^e \mod p \) and verify the results.
+  - \( 8^5 \mod 269 = 219 \): `[True/False]`
 
-2. **Secuencia con diferentes parámetros**  
-   - a=22, seed=35, c=31, m=100  
-   - Primeros cuatro números:  
+## Prime Number Testing
 
-3. **Secuencia con grandes valores**  
-   - a=954,365,343, seed=436,241, c=55,119,927, m=1,000,000  
-   - Primeros cuatro números:  
+- **Prime numbers up to 100**: `[List of primes]`
+- Implement a program to find primes up to 1000.
+  - Highest prime found: `[Result]`
 
-4. **Otra secuencia con grandes valores**  
-   - a=2,175,143, seed=3553, c=10,653, m=1,000,000  
-   - Primeros cuatro números:  
+## Random Number Generation
 
-5. **Xoroshiro128+ en Python**  
-   - Realiza 500 lanzamientos de moneda y muestra que el programa no está sesgado hacia "Heads" o "Tails".
+- Generate a sequence of random numbers with Python:
+  - **a=21, seed=35, c=31, m=100**: Is the sequence correct? `[Yes/No]`
 
-### F. Rompiendo el cifrado de desplazamiento
+## Breaking Ciphers
 
-1. **Ataque de fuerza bruta**  
-   - Desencripta el siguiente texto cifrado: `ymnx nx ymj ktwjxy uwnrjafq`
+- **Brute-force Attack**: Decrypt the following cipher text: `ymnx nx ymj ktwjxy uwnrjafq`
+- **Automate Brute-force Attack**: Write code to automate the decryption process.
 
-2. **Automatización de un ataque de fuerza bruta**  
-   - Escribe un código para automatizar el ataque de fuerza bruta.
+## Breaking Monoalphabetic Substitution Cipher
 
-### G. Rompiendo el cifrado de sustitución monoalfabético
-
-1. **Análisis de frecuencia**  
-   - Calcula la frecuencia relativa de todas las letras A...Z en el texto cifrado dado.
-   - Desencripta el texto usando el análisis de frecuencia de letras.
-
-## Notas
-
-- Si estás utilizando Python 3, recuerda agregar paréntesis en las declaraciones `print`.
-
-## Recursos
+- **Frequency Analysis**: Calculate the relative frequency of all letters A...Z in the given cipher text.
+  - Decrypt the text using frequency analysis.
