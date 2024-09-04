@@ -193,12 +193,47 @@ What are the first four numbers of the sequence?
 What are the first four numbers of the sequence?
 293732, 114329, 934700, 172753
 
+# Decrypting the Shift Cipher
 
+## 1. Decrypting with Brute Force
 
-## Breaking Ciphers
+### Given Ciphertexts
+- **Ciphertext 1**: `ymnx nx ymj ktwjxy uwnrjafq`
+- **Ciphertext 2**: `esp bflwtej zq xpcnj td yze decltypo`
+- **Ciphertext 3**: `owlzwhwghdwgxlzwmfalwvklslwk`
+- **Ciphertext 4**: `haahjr ha khdu`
+- **Ciphertext 5**: `wkh srufxslqh lv xqghu wkh vkhhwv`
+- **Ciphertext 6**: `WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ`
 
-- **Brute-force Attack**: Decrypt the following cipher text: `ymnx nx ymj ktwjxy uwnrjafq`
-- **Automate Brute-force Attack**: Write code to automate the decryption process.
+### Brute Force Attack Results
+For each ciphertext, the decryption process involves trying all 26 possible keys (0 to 25) to determine which key produces meaningful plaintext.
+
+#### Decrypted Plaintexts
+
+- **Ciphertext 1**
+
+  **Recovered Plaintext**: `this is the forest primeval`  
+  **Key Used**: 5
+
+- **Ciphertext 2**
+  **Recovered Plaintext**: `the quality of mercy is not strained`  
+  **Key Used**: 11
+
+- **Ciphertext 3**
+  **Recovered Plaintext**: `wethepeopleoftheunitedstates`  
+  **Key Used**: 19
+
+- **Ciphertext 4**
+  **Recovered Plaintext**: `attack at dawn`  
+  **Key Used**: 7
+
+- **Ciphertext 5**
+  **Recovered Plaintext**: `the porcupine is under the sheets`  
+  **Key Used**: 3
+
+- **Ciphertext 6**:
+  **Recovered Plaintext**: `THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG`  
+  **Key Used**: 3
 
 ## Breaking Monoalphabetic Substitution Cipher
 
